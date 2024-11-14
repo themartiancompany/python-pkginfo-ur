@@ -39,7 +39,8 @@ depends=(
 makedepends=(
   "${_py}-setuptools"
 )
-_pypi="http://pypi.python.org/packages/source"
+# _pypi="http://pypi.python.org/packages/source"
+_pypi="https://pypi.io/packages/source"
 source=(
   "${_pypi}/${_pkg:0:1}/${_pkg}/${_pkg}-${pkgver}.tar.gz"
 )
